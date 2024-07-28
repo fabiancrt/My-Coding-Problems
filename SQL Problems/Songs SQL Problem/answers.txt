@@ -1,0 +1,4 @@
+-- Answers written by Fabian C.
+
+1.The song's audio aura would be an average between each song's characteristics ( danceability, energy ,key ,loundness, speechiness, valence and tempo).
+2.I do not think there is any better way of calculating a song's aura.

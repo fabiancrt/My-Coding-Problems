@@ -1,0 +1,229 @@
+.subtitle{
+    margin-top: 1.4rem;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.title{
+    margin-top: 2rem;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.hero{
+    height:100%;
+    width:100%;
+}
+.videohome{
+    height:100%;
+    width:100%;
+    color: linear-gradient(to bottom ,white, yellow);
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+  }
+.wrapper::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: linear-gradient(
+        181deg,
+        rgba(255, 255, 255, 0.69) 7%,
+        rgba(255, 255, 255, 0) 84%
+      );
+      background-blend-mode: normal;
+  }
+.hometitle{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    color:white;
+}
+.homesubtitle{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+.homeinfo{
+    margin-left: 5rem;
+}
+.homebttntext{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    opacity: 0.9;
+    color:grey;
+}
+
+.wrapperhobby {
+    position: relative;
+    width: 100%;
+  }
+.wrapperhobby::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: linear-gradient(
+        181deg,
+        rgba(98, 99, 99, 1) 4%,
+        rgba(255, 255, 255, 0) 84%
+      );
+      background-blend-mode: normal;
+  }
+  .hobbytitle{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    color:rgba(196, 26, 63,0.9);
+}
+.hobbyparagraph{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color:rgba(255, 255, 255,0.7);
+}
+.hobbybttntext{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    opacity: 0.9;
+    color:rgba(196, 26, 63,0.9);
+}
+.passiontitle{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    color:rgba(190, 228, 230, .8);
+}
+.wrapperpassions {
+    position: relative;
+    width: 100%;
+  }
+.wrapperpassions::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: linear-gradient(
+        181deg,
+        rgba(42, 201, 209, .5) 4%,
+        rgba(255, 255, 255, 0) 84%
+      );
+      background-blend-mode: normal;
+  }
+  .passionsbttntext{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    opacity: 0.9;
+    color:rgba(217, 253, 255,0.9);
+}
+.passionsparagraph{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color:rgba(255, 255, 255,0.87);
+    background-color:rgba(49, 58, 59,0.4)
+}
+.wrapperbackground {
+    position: relative;
+    width: 100%;
+  }
+.wrapperbackground::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: linear-gradient(
+        181deg,
+        rgba(94, 101, 102, .7) 4%,
+        rgba(255, 255, 255, 0) 84%
+      );
+      background-blend-mode: normal;
+  }
+  .backgroundtitle{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    color:rgba(176, 182, 184, .8);
+}
+.backgroundparagraph{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color:rgba(255, 255, 255,0.87);
+
+}
+.backgroundbttntext{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    opacity: 0.9;
+    color:rgba(191, 199, 201,0.9);
+}
+
+
+#popupContainer {
+    position: relative;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+#popupDialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px
+        rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s
+        ease-in-out;
+}
+.lasttext{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    color:rgba(102, 101, 94, .8);
+}

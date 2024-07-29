@@ -1,0 +1,20 @@
+-----Project by Fabian C.
+---10 HTML tags I used:
+<p>
+<a>
+<u>
+<mark>
+<h1>
+<h5>
+<button>
+<div>
+<figcaption>
+<section>
+---5 CSS Propreties:
+-position
+-margin
+-font-family
+-color
+-border-radius
+
+In this project I used various Bootstrap propreties to build appealing and responsive elements ,like a responsive navbar, and I used Javascript to build an ending Pop-up triggered by a button click.

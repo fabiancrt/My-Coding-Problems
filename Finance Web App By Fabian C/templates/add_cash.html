@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    ADD CASH PAGE
+{% endblock %}
+
+{% block main %}
+            <!-- Answer By Fabian C. -->
+    <h4>Add Money To Your Balance</h4>
+    <form action="/add_cash" method="post">
+        <div class="mb-3">
+            <!-- ADD MONEY INPUT BOX -->
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="new_cash" placeholder="Add Money" type="int">
+        </div>
+        <button class="btn btn-primary" type="submit">Add</button>
+    </form>
+{% endblock %}

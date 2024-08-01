@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    QUOTED PAGE
+{% endblock %}
+            <!-- Answer By Fabian C. -->
+             <!--Display How Much X Costs-->
+{% block main %}
+    <h6>{{ symbol["name"]}} ({{symbol["symbol"]}}) COSTS {{symbol["price"] | usd}}</h6>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    BUY PAGE
+{% endblock %}
+            <!-- Answer By Fabian C. -->
+{% block main %}
+    <form action="/buy" method="post">
+        <div class="mb-3">
+            <!-- SYMBOL INPUT BOX -->
+            <input autocomplete="off" autofocus="" class="form-control mx-auto w-auto" id="symbol" name="symbol" placeholder="Input Symbol" type="text">
+        </div>
+        <div class="mb-3">
+            <!-- SHARES INPUT BOX -->
+            <input autocomplete="off" class="form-control mx-auto w-auto" min="1" name="shares" placeholder="Input Shares" type="number">
+        </div>
+        <button class="btn btn-primary" type="submit">Buy</button>
+    </form>
+{% endblock %}

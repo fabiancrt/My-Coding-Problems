@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    LOG IN PAGE
+{% endblock %}
+            <!-- Answer By Fabian C. -->
+{% block main %}
+    <form action="/login" method="post">
+        <div class="mb-3">
+            <!-- USERNAME INPUT BOX -->
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="username" placeholder="Username" type="text">
+        </div>
+        <div class="mb-3">
+            <!-- PASSWORD INPUT BOX -->
+            <input class="form-control mx-auto w-auto" name="password" placeholder="Password" type="password">
+        </div>
+        <button class="btn btn-primary" type="submit">Log In</button>
+    </form>
+{% endblock %}
